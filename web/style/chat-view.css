@@ -1,5 +1,39 @@
 /* CSS Document */
 
+html, body {
+    height: 100%;
+}
+
+#contents{
+	width:100%;
+	height:100%;
+}
+
 #chat{
+	background-color:#BBC9F1;
+	padding:3px;
+	width: 600px;
+	height:600px;
+	margin:auto;
+}
+
+#chat_messages{
+	margin:auto;
+	width:95%;
+	height:90%;
+}
+.msg{
 	
+}
+
+#chat_controls{
+	padding:5px;
+	border: 1px solid #DD5AD4;
+	height:8%;
+}
+#message_box{
+	width:75%;
+}
+#send_message_button{
+	width:20%;
 }
